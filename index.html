@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="id" data-theme="light">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Dara Puspa M — Guru, Mahasiswa S2 Sastra &amp; Penulis</title>
+<meta name="description" content="Dara Puspa M, guru SMP N 2 Lembah Gumanti, mahasiswa S2 Sastra Universitas Andalas, dan penulis.">
+<meta name="theme-color" content="#FDFCFB">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;600&family=DM+Sans:wght@400;500;600&family=DM+Serif+Display&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#FDFCFB;--grid:#EBE5F1;--ink:#2F2A3C;--soft:#6B6578;--card:#fff;--lilac:#E9DFF2;--sage:#D8E6DC;--peach:#F8E2D8;--mark:#F2D5E5;--sh:#C9B6D4;--accent:#7A5F86;
+--serif:'DM Serif Display',Georgia,serif;--sans:'DM Sans',system-ui,sans-serif;--hand:'Caveat',cursive}
+[data-theme=dark]{--bg:#1C1925;--grid:#2A2635;--ink:#F2EEF7;--soft:#B5AEC2;--card:#26222F;--lilac:#3A3049;--sage:#2E4036;--peach:#47362F;--mark:#5B3F58;--sh:#0E0C14;--accent:#D2B6E0}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;scroll-padding-top:76px}
+body{font-family:var(--sans);background-color:var(--bg);background-image:linear-gradient(var(--grid) 1px,transparent 1px),linear-gradient(90deg,var(--grid) 1px,transparent 1px);background-size:28px 28px;color:var(--ink);line-height:1.65;transition:background-color .3s,color .3s;overflow-x:hidden}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--accent);outline-offset:3px;border-radius:6px}
+.skip{position:absolute;left:-999px;top:8px;background:var(--ink);color:var(--bg);padding:8px 14px;border-radius:8px;z-index:50}
+.skip:focus{left:8px}
+.wrap{max-width:1080px;margin:0 auto;padding:0 24px}
+h1,h2,h3{font-family:var(--serif);font-weight:400;line-height:1.05}
+.hand{font-family:var(--hand);font-size:1.35rem;color:var(--accent);line-height:1.2}
+.box{background:var(--card);border:2px solid var(--ink);border-radius:16px;box-shadow:5px 5px 0 var(--sh)}
+.chip{display:inline-block;border:1.5px solid var(--ink);border-radius:999px;padding:3px 14px;font-size:.9rem;background:var(--card)}
+mark{background:linear-gradient(transparent 55%,var(--mark) 55%);color:inherit;padding:0 3px}
+
+/* nav */
+nav{position:sticky;top:0;z-index:20;background:var(--bg);border-bottom:2px solid var(--ink)}
+nav .wrap{display:flex;align-items:center;gap:20px;height:60px}
+.brand{font-weight:600;letter-spacing:.06em;text-decoration:none;white-space:nowrap;font-size:.95rem}
+.links{display:flex;gap:6px;flex:1;overflow-x:auto;scrollbar-width:none}
+.links::-webkit-scrollbar{display:none}
+.links a{padding:6px 12px;border-radius:999px;font-size:.8rem;font-weight:500;letter-spacing:.06em;text-decoration:none;white-space:nowrap;transition:background .2s}
+.links a:hover{background:var(--lilac)}
+#theme{display:grid;place-items:center;flex:none;width:44px;height:40px;padding:0;background:var(--card);color:var(--ink);border:2px solid var(--ink);border-radius:10px;cursor:pointer;transition:background .2s}
+#theme:hover{background:var(--lilac)}
+#theme svg{width:20px;height:20px}
+#theme .ic-sun{display:none}
+[data-theme=dark] #theme .ic-sun{display:block}
+[data-theme=dark] #theme .ic-moon{display:none}
+
+/* hero */
+.hero{padding:56px 0 64px}
+.hero .wrap{display:grid;grid-template-columns:1.2fr .8fr;gap:56px;align-items:center}
+.info{display:flex;gap:28px;flex-wrap:wrap;margin-bottom:26px;font-size:.9rem}
+.info b{display:block;font-size:.72rem;letter-spacing:.1em;color:var(--soft);font-weight:500;text-transform:uppercase}
+.hero h1{font-size:clamp(3.2rem,9vw,6.4rem);letter-spacing:.01em;margin:6px 0 18px;text-transform:uppercase}
+.chips{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:22px}
+.chip.on{background:var(--sage)}
+.hero .lead{font-size:1.15rem;max-width:44ch;margin-bottom:28px}
+.btns{display:flex;gap:14px;flex-wrap:wrap}
+.btn{display:inline-block;border:2px solid var(--ink);border-radius:999px;padding:12px 26px;font-weight:600;font-size:.92rem;text-decoration:none;box-shadow:4px 4px 0 var(--sh);transition:transform .15s,box-shadow .15s}
+.btn:hover{transform:translate(2px,2px);box-shadow:2px 2px 0 var(--sh)}
+.btn.p{background:var(--ink);color:var(--bg)}
+.btn.s{background:var(--card)}
+.portrait{position:relative;max-width:360px;margin-left:auto;transform:rotate(2deg)}
+.frame{aspect-ratio:4/5;background:var(--sage);overflow:hidden;display:flex;align-items:flex-end;justify-content:center;position:relative}
+.frame img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.frame svg{width:76%;opacity:.7}
+.tag{position:absolute;left:-14px;top:-16px;transform:rotate(-6deg);background:var(--peach);border:2px solid var(--ink);border-radius:10px;padding:2px 14px}
+.portrait .hand.cap{text-align:center;margin-top:12px;transform:rotate(-2deg)}
+.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:48px}
+.stat{padding:20px 22px}
+.stat strong{font-family:var(--serif);font-weight:400;font-size:2.6rem;line-height:1;display:block}
+.stat span{color:var(--soft);font-size:.92rem}
+.stat:nth-child(1){background:var(--lilac)}.stat:nth-child(2){background:var(--peach)}.stat:nth-child(3){background:var(--sage)}
+
+/* marquee */
+.ticker{border-block:2px solid var(--ink);background:var(--lilac);overflow:hidden;white-space:nowrap;padding:12px 0}
+.ticker div{display:inline-block;animation:scroll 32s linear infinite;font-weight:500;letter-spacing:.04em}
+.ticker span{margin:0 22px}
+@keyframes scroll{to{transform:translateX(-50%)}}
+
+/* sections */
+section{padding:84px 0}
+.sh{margin-bottom:38px}
+.sh h2{font-size:clamp(2.2rem,5vw,3.2rem);text-transform:uppercase;margin-top:2px}
+.about{display:grid;grid-template-columns:1.1fr .9fr;gap:48px;align-items:start}
+.about h3{font-size:clamp(1.7rem,3.4vw,2.2rem);margin-bottom:16px}
+.about p{color:var(--soft);margin-bottom:14px;max-width:54ch}
+.cols{display:grid;gap:20px}
+.list{padding:24px}
+.list h3{font-size:1.4rem;margin-bottom:14px}
+.list ul{list-style:none;display:flex;flex-wrap:wrap;gap:8px}
+.list li{border:1.5px solid var(--ink);border-radius:999px;padding:2px 13px;font-size:.88rem;background:var(--bg)}
+
+/* experience */
+.jobs{list-style:none;display:grid;gap:26px;max-width:820px}
+.job{display:grid;grid-template-columns:150px 1fr;gap:22px;align-items:start}
+.when{font-weight:600;font-size:.88rem;border:2px solid var(--ink);border-radius:999px;padding:5px 14px;background:var(--lilac);text-align:center}
+.job:first-child .when{background:var(--sage)}
+.job .box{padding:24px 26px}
+.job h3{font-size:1.7rem}
+.job .org{color:var(--accent);font-weight:600;margin:4px 0 10px}
+.job ul{padding-left:20px;color:var(--soft)}
+.job li{margin-bottom:5px}
+
+/* education */
+.edu{display:grid;grid-template-columns:1fr 1fr;gap:24px}
+.edu .box{padding:28px;position:relative}
+.stamp{position:absolute;right:18px;top:-14px;transform:rotate(4deg);background:var(--mark);border:2px solid var(--ink);border-radius:8px;padding:1px 12px;font-size:.78rem;font-weight:600;letter-spacing:.08em}
+.edu h3{font-size:1.9rem;margin:6px 0 4px}
+.edu .org{color:var(--accent);font-weight:600}
+.edu ul{padding-left:20px;color:var(--soft);margin-top:10px}
+.edu li{margin-bottom:6px}
+
+/* writing */
+.posts{list-style:none;display:grid;gap:14px;max-width:820px}
+.post{display:flex;gap:20px;align-items:center;padding:18px 24px}
+.post time{color:var(--soft);font-size:.88rem;min-width:96px}
+.post h3{font-size:1.35rem}
+.note{margin-top:20px}
+
+/* contact */
+.contact{text-align:center}
+.contact .box{padding:56px 28px;background:var(--lilac)}
+.contact h2{font-size:clamp(2.4rem,6vw,4rem);text-transform:uppercase;margin:4px 0 12px}
+.contact p{max-width:46ch;margin:0 auto 26px}
+.contact .btns{justify-content:center}
+.social{display:flex;justify-content:center;gap:10px;flex-wrap:wrap;margin-top:26px}
+.social a{text-decoration:none}
+footer{padding:28px 0 36px;text-align:center;color:var(--soft);font-size:.88rem}
+
+.burger{display:none;position:relative;width:44px;height:40px;flex:none;border:2px solid var(--ink);border-radius:10px;background:var(--card);cursor:pointer}
+.burger span{position:absolute;left:10px;right:10px;height:2px;border-radius:2px;background:var(--ink);transition:transform .2s,opacity .2s}
+.burger span:nth-child(1){top:calc(50% - 8px)}
+.burger span:nth-child(2){top:calc(50% - 1px)}
+.burger span:nth-child(3){top:calc(50% + 6px)}
+nav.open .burger span:nth-child(1){transform:translateY(7px) rotate(45deg)}
+nav.open .burger span:nth-child(2){opacity:0}
+nav.open .burger span:nth-child(3){transform:translateY(-7px) rotate(-45deg)}
+@media(max-width:860px){
+  .burger{display:block}
+  #theme{margin-left:auto}
+  .links{display:none;position:absolute;top:100%;left:0;right:0;flex-direction:column;gap:2px;padding:10px 24px 18px;background:var(--bg);border-bottom:2px solid var(--ink);overflow:visible;box-shadow:0 8px 0 var(--sh)}
+  nav.open .links{display:flex}
+  .links a{padding:12px 14px;font-size:.9rem;border-radius:10px}
+  .hero{padding:36px 0 48px}
+  .hero .wrap,.about,.edu{grid-template-columns:1fr;gap:36px}
+  .portrait{margin:0 auto;max-width:300px;order:-1}
+  .stats{grid-template-columns:1fr}
+  .job{grid-template-columns:1fr;gap:10px}
+  .when{justify-self:start}
+  section{padding:60px 0}
+  .post{flex-direction:column;align-items:flex-start;gap:4px}
+}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
+</style>
+</head>
+<body>
+<a class="skip" href="#main">Langsung ke isi</a>
+
+<nav>
+  <div class="wrap">
+    <a class="brand" href="#top">★ PORTOFOLIO DARA</a>
+    <div class="links" id="links">
+      <a href="#top">BERANDA</a><a href="#tentang">TENTANG</a><a href="#pengalaman">PENGALAMAN</a><a href="#pendidikan">PENDIDIKAN</a><a href="#tulisan">TULISAN</a><a href="#kontak">KONTAK</a>
+    </div>
+    <button id="theme" type="button" aria-label="Ganti ke mode malam">
+      <svg class="ic-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
+      <svg class="ic-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
+    </button>
+    <button id="menu" class="burger" type="button" aria-label="Buka menu" aria-expanded="false" aria-controls="links"><span></span><span></span><span></span></button>
+  </div>
+</nav>
+
+<main id="main">
+<header class="hero" id="top">
+  <div class="wrap">
+    <div>
+      <div class="info">
+        <div><b>Saat ini</b>SMP N 2 Lembah Gumanti</div>
+        <div><b>Studi</b>S2 Sastra, Universitas Andalas</div>
+      </div>
+      <p class="hand">nama saya</p>
+      <h1>Dara Puspa Mulyana</h1>
+      <div class="chips">
+        <span class="chip on">Guru</span>
+        <span class="chip">Mahasiswa S2 Sastra</span>
+        <span class="chip">Penulis</span>
+      </div>
+      <p class="lead">Saya mengajar di kelas pada pagi hari, <mark>membaca dan menulis sastra</mark> sepanjang sisa waktu, dan percaya keduanya saling menumbuhkan.</p>
+      <div class="btns">
+        <a class="btn p" href="#pengalaman">Lihat pengalaman</a>
+        <a class="btn s" href="#kontak">Hubungi saya</a>
+      </div>
+    </div>
+    <div class="portrait">
+      <div class="frame box">
+        <!-- Ganti <svg> ini dengan: <img src="foto-dara.jpg" alt="Foto Dara Puspa M"> -->
+          <img src="img/dara.jpeg" alt="Foto Dara Puspa M">
+      </div>
+      <span class="tag hand">halo!</span>
+      <p class="hand cap">ps. fotonya cakep banget ya</p>
+    </div>
+  </div>
+  <div class="wrap">
+    <div class="stats" style="width:100%">
+      <div class="stat box"><strong>2</strong><span>Sekolah tempat mengajar</span></div>
+      <div class="stat box"><strong>S2</strong><span>Sastra, sedang ditempuh</span></div>
+      <div class="stat box"><strong>Sumbar</strong><span>Tempat saya berkarya</span></div>
+    </div>
+  </div>
+</header>
+
+<div class="ticker" aria-hidden="true">
+  <div><span>★ Mengajar</span><span>★ Sastra</span><span>★ Menulis</span><span>★ Literasi</span><span>★ Penelitian</span><span>★ Pembinaan siswa</span><span>★ Mengajar</span><span>★ Sastra</span><span>★ Menulis</span><span>★ Literasi</span><span>★ Penelitian</span><span>★ Pembinaan siswa</span></div>
+</div>
+
+<section id="tentang">
+  <div class="wrap about">
+    <div>
+      <div class="sh"><p class="hand">tentang saya!</p><h2>Cerita di balik kelas</h2></div>
+      <h3>Mengajar dengan telinga yang mau mendengar.</h3>
+      <p>Saya guru di SMP N 2 Lembah Gumanti yang sedang menempuh S2 Sastra di Universitas Andalas. Sebelumnya saya mengajar di ICBS Payakumbuh.</p>
+      <p>Kuliah sastra membuat saya lebih peka pada cerita siswa. Menulis membuat saya lebih jernih saat menjelaskan. Keduanya saya bawa ke dalam kelas.</p>
+       </div>
+    <div class="cols">
+      <div class="list box">
+        <h3>Mengajar &amp; Kelas</h3>
+        <ul><li>Perencanaan pembelajaran</li><li>Pengelolaan kelas</li><li>Penilaian siswa</li><li>Pembinaan karakter</li><li>Komunikasi dengan orang tua</li><li>Pembelajaran digital</li></ul>
+      </div>
+      <div class="list box">
+        <h3>Sastra &amp; Menulis</h3>
+        <ul><li>Analisis teks sastra</li><li>Penulisan kreatif</li><li>Penulisan ilmiah</li><li>Penelitian sastra</li><li>Penyuntingan</li><li>Penguatan literasi</li></ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="pengalaman" style="background:var(--card);border-block:2px solid var(--ink)">
+  <div class="wrap">
+    <div class="sh"><p class="hand">perjalanan mengajar</p><h2>Tempat saya pernah mengajar</h2></div>
+    <ol class="jobs">
+      <li class="job">
+        <div class="when">2025-Sekarang</div>
+        <div class="box">
+          <h3>Guru</h3>
+          <p class="org">SMP N 2 Lembah Gumanti</p>
+          <ul>
+            <li>Merancang dan menjalankan pembelajaran untuk siswa sekolah menengah pertama.</li>
+            <li>Mendampingi perkembangan akademik dan karakter siswa.</li>
+            <li>Menjalani studi S2 Sastra sambil terus mengajar.</li>
+          </ul>
+        </div>
+      </li>
+      <li class="job">
+        <div class="when">2023-2025</div>
+        <div class="box">
+          <h3>Guru</h3>
+          <p class="org">ICBS Payakumbuh</p>
+          <ul>
+            <li>Mengajar dan membimbing siswa dalam proses belajar sehari-hari.</li>
+            <li>Membangun dasar pengalaman mengajar yang saya bawa hingga sekarang.</li>
+          </ul>
+        </div>
+      </li>
+    </ol>
+  </div>
+</section>
+
+<section id="pendidikan">
+  <div class="wrap">
+    <div class="sh"><p class="hand">belajar tak berhenti</p><h2>Pendidikan</h2></div>
+    <div class="edu">
+      <div class="box">
+        <span class="stamp">SEDANG BERJALAN</span>
+        <span class="chip">Magister</span>
+        <h3>Sastra</h3>
+        <p class="org">Universitas Andalas</p>
+        <p style="color:var(--soft);margin-top:8px">Mendalami kajian sastra untuk memperkuat cara saya mengajar dan menulis.</p>
+      </div>
+      <div class="box">
+        <h3 style="font-size:1.5rem">Yang ingin saya capai</h3>
+        <ul>
+          <li>Membawa wawasan sastra ke dalam pembelajaran di kelas.</li>
+          <li>Menumbuhkan kebiasaan membaca dan menulis pada siswa.</li>
+          <li>Menghasilkan karya tulis dan penelitian yang bermanfaat.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="tulisan" style="background:var(--card);border-block:2px solid var(--ink)">
+  <div class="wrap">
+    <div class="sh"><p class="hand">suka menulis</p><h2>Tulisan</h2></div>
+    <!-- Ganti contoh di bawah dengan judul, tanggal, dan link tulisan sebenarnya -->
+    <ol class="posts">
+      <li class="post box"><time>Segera hadir</time><h3><a href="#">Judul tulisan pertama</a></h3></li>
+      <li class="post box"><time>Segera hadir</time><h3><a href="#">Judul tulisan kedua</a></h3></li>
+      <li class="post box"><time>Segera hadir</time><h3><a href="#">Judul tulisan ketiga</a></h3></li>
+    </ol>
+    
+  </div>
+</section>
+
+<section class="contact" id="kontak">
+  <div class="wrap">
+    <div class="box">
+      <p class="hand">ayo ngobrol</p>
+      <h2>Mari terhubung</h2>
+      <p>Terbuka untuk kolaborasi pendidikan, diskusi sastra, dan kerja sama menulis.</p>
+      <!--<div class="btns">
+        <a class="btn p" href="mailto:email@contoh.com">email@contoh.com</a>
+        <a class="btn s" href="https://wa.me/6280000000000" target="_blank" rel="noopener">WhatsApp</a>
+      </div>-->
+      <div class="social">
+        <a class="chip" href="https://instagram.com/daraa.pm" target="_blank" rel="noopener">Instagram</a>
+        <a class="chip" href="https://www.linkedin.com/in/dara-puspa-mulyana-2949a7259/" target="_blank" rel="noopener">LinkedIn</a>
+              </div>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>© 2026 Dara Puspa M | Dibuat oleh my yeoppo eonni</footer>
+
+<script>
+(function(){
+  var root=document.documentElement,btn=document.getElementById('theme'),meta=document.querySelector('meta[name=theme-color]');
+  function apply(t){root.setAttribute('data-theme',t);btn.setAttribute('aria-label',t==='dark'?'Ganti ke mode siang':'Ganti ke mode malam');meta.setAttribute('content',t==='dark'?'#1C1925':'#FDFCFB')}
+  var saved=null;try{saved=localStorage.getItem('theme')}catch(e){}
+  apply(saved||(window.matchMedia&&matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'));
+  btn.addEventListener('click',function(){
+    var t=root.getAttribute('data-theme')==='dark'?'light':'dark';apply(t);
+    try{localStorage.setItem('theme',t)}catch(e){}
+  });
+  var nav=document.querySelector('nav'),menu=document.getElementById('menu'),links=document.getElementById('links');
+  function setMenu(o){nav.classList.toggle('open',o);menu.setAttribute('aria-expanded',o?'true':'false');menu.setAttribute('aria-label',o?'Tutup menu':'Buka menu')}
+  menu.addEventListener('click',function(){setMenu(!nav.classList.contains('open'))});
+  links.addEventListener('click',function(e){if(e.target.tagName==='A')setMenu(false)});
+  document.addEventListener('click',function(e){if(!nav.contains(e.target))setMenu(false)});
+  document.addEventListener('keydown',function(e){if(e.key==='Escape'&&nav.classList.contains('open')){setMenu(false);menu.focus()}});
+  window.addEventListener('resize',function(){if(window.innerWidth>860)setMenu(false)});
+})();
+</script>
+</body>
+</html>
